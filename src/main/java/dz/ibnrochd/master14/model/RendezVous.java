@@ -70,6 +70,7 @@ public class RendezVous implements Serializable {
 	public void setPatient(Patient patient) {
 		this.patient = patient;
 	}
-    
+
+	
     
 }

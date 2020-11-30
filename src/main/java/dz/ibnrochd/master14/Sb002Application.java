@@ -38,6 +38,7 @@ public class Sb002Application<patient> implements CommandLineRunner {
 		SpringApplication.run(Sb002Application.class, args);
 	}
 
+	/*
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO : récupérer la liste de tous les patients puis afficher leurs noms
@@ -67,6 +68,6 @@ public class Sb002Application<patient> implements CommandLineRunner {
 		List<Traitement> t=traitementRepository.findAll();
 		System.out.println(t);
 		
-	}
+	}*/
 
 }
