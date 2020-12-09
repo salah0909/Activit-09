@@ -18,7 +18,7 @@ import dz.ibnrochd.master14.model.Patient;
 import dz.ibnrochd.master14.model.Traitement;
 
 @SpringBootApplication
-public class Sb002Application<patient> implements CommandLineRunner {
+public class Sb002Application {
 	
 	@Autowired
 	PatientRepository patientRepository;
